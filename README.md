@@ -3,16 +3,37 @@
 <img src="https://github.com/barbedwired/VOICEOIDManager/blob/origin02/data/voiceroidmanagerV++logo.png?raw=true" alt="VOICEROIDManagerV++" width="200"　title="logo">
 
 <p>VOICEOIDManagerV++はVOICEROIDを効率的に運用できるアプリケーションです。GUIにより誰でも簡単に操作することが出来ます。</p>
+<br>
 <img src="https://github.com/barbedwired/VOICEOIDManager/blob/origin02/data/image0.png?raw=true" alt="ショートカットキー" width="300"　title="">
+
+<br>
+<br>
+<br>
+<br>
+
+
+
 ##ダウンロードとインストール
 <img src="https://github.com/barbedwired/VOICEOIDManager/blob/origin02/data/image1.png?raw=true" alt="ショートカットキー" width=""　title="">
 <p>zipファイルをダウンロードし、適当なディレクトリに解凍してください。</p>
-
+<br>
+<br>
+<br>
+<br>
 
 ##再生保存動作の効率化
 <p>ホットキーに対応しており、無変換キーで選択範囲の再生処理、停止処理が可能です。
 ウィンドウ最小状態で操作することも可能です。</p>
 <img src="https://github.com/barbedwired/VOICEOIDManager/blob/origin02/data/shortcutkey.png?raw=true" alt="ショートカットキー" width=""　title="">
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
 
 ##複数のwavファイル作成の効率化
 <p>一つのtxtファイルから複数のwavファイルを作成することが出来ます。
@@ -23,11 +44,24 @@ wavファイルは改行で区切られ、キャラクターごとの接頭辞�
 弦巻マキ→maki_
 琴葉茜→akane_
 琴葉葵→aoi_
+<br>
+<br>
+<br>
+<br>
+  
+  
+
+
+
+
 
 
 ##大量の文字のwav化
 テキストを、指定文字数ごとのテキストファイルに分割できます。
 さらにファイルを丸ごとwav化することが出来ます。
+
+
+
 
 
 
