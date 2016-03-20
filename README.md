@@ -2,17 +2,22 @@
 
 <img src="https://github.com/barbedwired/VOICEOIDManager/blob/origin02/data/voiceroidmanagerV++logo.png?raw=true" alt="VOICEROIDManagerV++" width="200"　title="logo">
 
-VOICEOIDManagerV++はVOICEROIDを効率的に運用できるアプリケーションです。
+<p>VOICEOIDManagerV++はVOICEROIDを効率的に運用できるアプリケーションです。GUIにより誰でも簡単に操作することが出来ます。</p>
+<img src="https://github.com/barbedwired/VOICEOIDManager/blob/origin02/data/image0.png?raw=true" alt="ショートカットキー" width="300"　title="">
+##ダウンロードとインストール
+<img src="https://github.com/barbedwired/VOICEOIDManager/blob/origin02/data/image1.png?raw=true" alt="ショートカットキー" width=""　title="">
+<p>zipファイルをダウンロードし、適当なディレクトリに解凍してください。</p>
+
 
 ##再生保存動作の効率化
-ホットキーに対応しており、無変換キーで選択範囲の再生処理、停止処理が可能です。
-ウィンドウ最小状態で操作することも可能です。
+<p>ホットキーに対応しており、無変換キーで選択範囲の再生処理、停止処理が可能です。
+ウィンドウ最小状態で操作することも可能です。</p>
 <img src="https://github.com/barbedwired/VOICEOIDManager/blob/origin02/data/shortcutkey.png?raw=true" alt="ショートカットキー" width=""　title="">
 
 ##複数のwavファイル作成の効率化
-一つのtxtファイルから複数のwavファイルを作成することが出来ます。
+<p>一つのtxtファイルから複数のwavファイルを作成することが出来ます。
 wavファイルは改行で区切られ、キャラクターごとの接頭辞をつけることにより、指定のVOICEROIDに振り分けることが可能です。
-例えば結月ゆかりに発言させたい場合"yukari_こんにちは[改行]"のように記します。
+例えば結月ゆかりに発言させたい場合"yukari_こんにちは[改行]"のように記します。</p>
 ###接頭辞
 結月ゆかり→yukari_
 弦巻マキ→maki_
