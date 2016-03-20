@@ -7,8 +7,7 @@ VOICEOIDManagerV++はVOICEROIDを効率的に運用できるアプリケーシ�
 ##再生保存動作の効率化
 ホットキーに対応しており、無変換キーで選択範囲の再生処理、停止処理が可能です。
 ウィンドウ最小状態で操作することも可能です。
-<img src="https://github.com/barbedwired/VOICEOIDManager/blob/origin02/data/shortcutkey.png?raw=true
-" alt="" width="200"　title="">
+<img src="https://github.com/barbedwired/VOICEOIDManager/blob/origin02/data/shortcutkey.png?raw=true" alt="ショートカットキー" width="200"　title="">
 
 ##複数のwavファイル作成の効率化
 一つのtxtファイルから複数のwavファイルを作成することが出来ます。
@@ -22,7 +21,7 @@ wavファイルは改行で区切られ、キャラクターごとの接頭辞�
 
 
 
-
+##ライセンス
 
 The MIT License (MIT)
 Copyright (c) 2016 BarbedWired
