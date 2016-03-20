@@ -1,8 +1,20 @@
-# VOICEOIDManager
+# VOICEOIDManagerの簡単な説明
 
-<img src="https://github.com/barbedwired/VOICEOIDManager/blob/origin02/data/voiceroidmanagerV++logo.png?raw=true" alt="VOICEROIDManagerV++" width="200"　title="サンプル">
+<img src="https://github.com/barbedwired/VOICEOIDManager/blob/origin02/data/voiceroidmanagerV++logo.png?raw=true" alt="VOICEROIDManagerV++" width="200"　title="logo">
 
 VOICEOIDManagerV++はVOICEROIDを効率的に運用できるアプリケーションです。
+
+##再生保存動作の効率化
+ホットキーに対応しており、無変換キーで選択範囲の再生処理、停止処理が可能です。
+ウィンドウ最小状態で操作することも可能です。
+
+##複数のwavファイル作成の効率化
+一つのtxtファイルから複数のwavファイルを作成することが出来ます。
+wavファイルは改行で区切られ、キャラクターごとの接頭辞をつけることにより、指定のVOICEROIDに振り分けることが可能です。
+
+##大量の文字のwav化
+テキストを、指定文字数ごとのテキストファイルに分割できます。
+さらにファイルを丸ごとwav化することが出来ます。
 
 
 
@@ -11,7 +23,7 @@ VOICEOIDManagerV++はVOICEROIDを効率的に運用できるアプリケーシ�
 
 
 The MIT License (MIT)
-Copyright (c) 2016 copyright holders BarbedWired
+Copyright (c) 2016 BarbedWired
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
