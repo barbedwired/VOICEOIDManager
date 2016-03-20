@@ -2,7 +2,7 @@
 
 <img src="https://github.com/barbedwired/VOICEOIDManager/blob/origin02/data/voiceroidmanagerV++logo.png?raw=true" alt="VOICEROIDManagerV++" width="200"　title="logo">
 
-<p>VOICEOIDManagerV++はVOICEROIDを効率的に運用できるアプリケーションです。GUIにより誰でも簡単に操作することが出来ます。</p>
+<p>VOICEOIDManagerV++はVOICEROIDを効率的に運用できるアプリケーションです。<br>GUIにより誰でも簡単に操作することが出来ます。</p>
 <br>
 <img src="https://github.com/barbedwired/VOICEOIDManager/blob/origin02/data/image0.png?raw=true" alt="ショートカットキー" width="300"　title="">
 
@@ -39,6 +39,8 @@
 <p>一つのtxtファイルから複数のwavファイルを作成することが出来ます。
 wavファイルは改行で区切られ、キャラクターごとの接頭辞をつけることにより、指定のVOICEROIDに振り分けることが可能です。
 例えば結月ゆかりに発言させたい場合"yukari_こんにちは[改行]"のように記します。</p>
+<br>
+<br>
 ###接頭辞
 結月ゆかり→yukari_
 弦巻マキ→maki_
