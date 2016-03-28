@@ -1,8 +1,14 @@
-﻿Gui,Add,Text,x22 y50 w430 h20 ,保存先パス                         ;ラベルを追加
-Gui,Add,Edit,x100 y50 vTarget w350,                ;入力欄を追加
+﻿IniRead, savefilepath, C:\Users\ksk\Documents\data\V++data.ini, section1, savefilepath
+IniRead, waitingtime, C:\Users\ksk\Documents\data\V++data.ini, section1, waitingtime
+IniRead, choppingstringlength, C:\Users\ksk\Documents\data\V++data.ini, section1, choppingstringlength
 
-Gui,Add,Text,x22 y365 w430 h20 ,待機時間400~2000                         ;ラベルを追加
-Gui,Add,Edit,x130 y360 vTargetWait w50, 400                ;入力欄を追加
+Gui,Add,Text,x22 y50 w430 h20 ,保存先パス                         ;ラベルを追加
+Gui,Add,Edit,x100 y50 vTarget w350, %savefilepath%               ;入力欄を追加
+
+Gui,Add,Text,x22 y365 w430 h20 ,待機時間400~2000                         ;待機時間ラベルを追加
+Gui,Add,Button,gsaveV++settings x250 y360 w60 h20,設定保存                  ;設定保存ボタンを追加
+
+Gui,Add,Edit,x130 y360 vTargetWait w50, %waitingtime%                ;待機時間入力欄を追加
 
 Gui, Add, Tab, x2 y0 w470 h390 , Main|Sub
 
@@ -48,7 +54,7 @@ Gui, Tab, Sub
 Gui, Add, GroupBox, x12 y250 w450 h110 , フォルダまるごと音声化
 Gui,Add,Text,x22 y270 w140 h20,音声化するフォルダ
 Gui,Add,Checkbox,x22 y310 w100 h40 vC21 ,ファイル頭に番号         ;チェックボックスを追加
-Gui,Add,Edit,x160 y270 w280 h40 vTarget2 ,               ;入力欄2を追加
+Gui,Add,Edit,x160 y270 w280 h40 vTarget2 ,               ;音声化するファイル入力欄2を追加
 Gui,Add,Button,gExec3 x300 y310　w120 h30,&フォルダ内をすべて音声化                  ;実行ボタンを追加
 
 
@@ -61,7 +67,7 @@ Gui, Add, Button,gExec5 x120 y210 w100 h20 , txt分割出力
 Gui, Add, Button,gExec52 x360 y210 w100 h20 , wav分割出力
 Gui,Add,Checkbox,x360 y190 w110 h20 vC33 ,名前+番号(TWS)         ;
 Gui, Add, Text, x22 y190 w130 h20 , 分割テキストファイル文字数
-Gui, Add, Edit, x162 y190 w60 h20 vtarget22, 15000
+Gui, Add, Edit, x162 y190 w60 h20 vtarget22, %choppingstringlength% ;分割する文字数
 
 Gui, Show, x714 y688 h400 w480, VOICEROID Manager V++
 
@@ -1254,3 +1260,10 @@ sleep, %TargetWait%
 	}
 Return
 
+saveV++settings:
+Gui, Submit, NoHide   ;チェックボックスを変数に反映
+IniWrite, %Target%, data\V++data.ini, section1, savefilepath  
+IniWrite, %Target22%, data\V++data.ini, section1, choppingstringlength 
+IniWrite, %TargetWait%, data\V++data.ini, section1, waitingtime
+MsgBox 保存先、待機時間、分割テキストファイル文字数を保存しました。
+return
