@@ -2,7 +2,7 @@
 
 <img src="https://github.com/barbedwired/VOICEOIDManager/blob/origin02/data/voiceroidmanagerV++logo.png?raw=true" alt="VOICEROIDManagerV++" width="200"　title="logo">
 
-<p>VOICEOIDManagerV++はVOICEROIDを効率的に運用できるアプリケーションです。<br>GUIにより誰でも簡単に操作することが出来ます。</p>
+<p>VOICEOIDManagerV++はVOICEROIDを効率的に運用できるアプリケーションです。<br>GUIにより誰でも簡単に操作出来ます。</p>
 <br>
 <img src="https://github.com/barbedwired/VOICEOIDManager/blob/origin02/data/image0.png?raw=true" alt="ショートカットキー" width="300"　title="">
 
@@ -60,7 +60,7 @@ wavファイルは改行で区切られ、キャラクターごとの接頭辞�
 
 ##大量の文字のwav化
 テキストを、指定文字数ごとのテキストファイルに分割できます。
-さらにファイルを丸ごとwav化することが出来ます。
+さらにファイルを丸ごとwav化することも出来ます。
 
 
 
